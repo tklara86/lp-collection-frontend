@@ -7,6 +7,8 @@ import Orf from "../../img/orff-carmina-burana-front.jpg";
         return (
             <Fragment>
             <h1 className="text--md">Lp Collection</h1>
+
+
         <div className="container">
 
             <div className="album-container">
@@ -15,7 +17,7 @@ import Orf from "../../img/orff-carmina-burana-front.jpg";
                         <img src={Pend} alt="actions" />
                     </div>
                     <div className="album-flex-t">
-                        <h1 className="text--3xl album-title">Actions</h1>
+                        <h1 className="album-title">Actions</h1>
                         <span className="text--md album-artist divider">Krzysztof Penderecki</span>
                     </div>
 
@@ -23,8 +25,33 @@ import Orf from "../../img/orff-carmina-burana-front.jpg";
                         <div className="album-info">
                             <div className="album-info--details album-info--divider">
                                 <p>Label</p>
-
                                 <span className="text--md divider">CBS</span>
+                            </div>
+                            <div className="album-info--details">
+                                <p>Year</p>
+                                <span className="text--md">1974</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="album-card">
+                    <div className="t">
+                        <img src={Orf} alt="actions" />
+                    </div>
+                    <div className="album-flex-t">
+
+                        <h1 className="album-title">Carmina Burana</h1>
+                        <span className="text--md album-artist divider">Carl Orff</span>
+
+                    </div>
+
+                    <div className="album-flex-b">
+                        <div className="album-info">
+                            <div className="album-info--details album-info--divider">
+                                <p>Label</p>
+
+                                <span className="text--md divider">Deutsche Gramophone</span>
 
                             </div>
                             <div className="album-info--details">
@@ -39,7 +66,7 @@ import Orf from "../../img/orff-carmina-burana-front.jpg";
                         <img src={Orf} alt="actions" />
                     </div>
                     <div className="album-flex-t">
-                        <h1 className="text--3xl album-title">Carmina Burana</h1>
+                        <h1 className="album-title">Carmina Burana</h1>
                         <span className="text--md album-artist divider">Carl Orff</span>
                     </div>
 
@@ -48,7 +75,7 @@ import Orf from "../../img/orff-carmina-burana-front.jpg";
                             <div className="album-info--details album-info--divider">
                                 <p>Label</p>
 
-                                <span className="text--md divider">CBS</span>
+                                <span className="text--md divider">Sony Classics</span>
 
                             </div>
                             <div className="album-info--details">

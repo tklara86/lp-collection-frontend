@@ -14,7 +14,8 @@
   flex-direction: column;
   img {
     width: 100%;
-
+    max-height: 500px;
+    object-fit: cover;
   }
 }
 
@@ -24,18 +25,19 @@
 
 .album-artist {
   color: theme-colors('text', 'accent');
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.5px;
 }
 .album-title {
   color: theme-colors('text', 'body-text-alt');
-  font-family: 'Crimson', serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 600;
   margin-top: 1rem;
+  letter-spacing: -0.5px;
 }
 .album-title--alt {
   color: theme-colors('text', 'body-text-alt');
-  font-family: 'Crimson', serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 600;
 }
 

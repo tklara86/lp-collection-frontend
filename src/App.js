@@ -4,15 +4,17 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Navbar from "./components/common/Navbar";
 import About from "./components/pages/About";
 import Home from "./components/pages/Home";
+
 // scss
 import '../src/scss/main.scss'
 
 
 export default class App extends Component {
     render() {
+
         return (
             <Router>
-                <Navbar/>
+                <Navbar />
 
                 <Switch>
                     <Route exact path="/" component={Home}/>
